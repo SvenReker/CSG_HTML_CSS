@@ -1,17 +1,115 @@
-html, body {
-    padding: 0;
-    margin: 0;
+body{
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
 }
 
-body {
-    background: #5d524c;
-    color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    size: 14px;
-    padding-left: 10%;
+.menu{
+    display: flex;
+    flex-direction: row wrap;
+    width: 100%;
+    height: 50px;
+    border: 3px solid aliceblue;
+    background-color: whitesmoke;
+    justify-content: center;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+.menuitem{
+    padding: 14px;
+    color: rgba(54, 52, 52, 0.829);
+    text-decoration: none;
+    font-family: Geneva;
+    cursor: pointer;
+}
+.menuitem:hover{
+    color: black;
+}
+#logo{
+    width: 6 px;
+    height: 10px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.iPhone15pro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    background-size: cover;
+    color: whitesmoke;
+    width: 100%;
+}
+
+#koop{
+    color: rgb(0, 140, 255);
+    font-size: larger;
+    margin-bottom: 20px;
+}
+#koop:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+h2{
+    font-weight: lighter;
+    font-size: x-large;
+}
+.titel{
+    font-weight: 100px;
+    font-size: 58px;
+}
+h3{
+    color: rgb(165, 77, 42);
+    font-weight: lighter;
+    font-size: 16px;
+}
+h4{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.Mac{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+#Pros{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    margin-left: 8%;
+}
+
+#iPhone{
+    background-color: rgb(255, 255, 255)
+}
+#iPhone{
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 1px;
+}
+.box2{
+    width: 300px;
+    border: 1px solid black;
+    padding: 7px;
+    margin-left: 60%;
+    border-radius: 16px; 
+}
+
+#naam{
+    font-size: smaller;
+    font-weight: bolder;
+    padding: 0px;
+}
+
+#schermgrootte{
+    font-size: 60%;
 }

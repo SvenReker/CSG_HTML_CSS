@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(3, 114, 53);
+}
+
+h1 {
+    color: white
+}
+
+.white {
+    color:azure;
+    border: 3px solid rgb(0, 255, 76);
+    width: 27%;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#tile{
+    width: 18%;
+    text-align: center;
+    border-radius: 6px;
+    font-family: Times New Roman;
+}
+#title{
+    margin-right: 160px;
+    border: 5px solid cadetblue;
+    width: 12%;
+    border-radius: 5px;
+}
+#text{
+    font-family: 'Courier New', Courier, monospace;
+}
+#knop{
+    border: 3px solid aqua;
+    text-align: center;
+    border-radius: 3px;
+    color: azure;
+}
+img{
+    width: 30%;
+}
+.Hobbies{
+    color: azure;
+    text-align: center;
+    border: 3px solid aqua;
+    border-radius: 8px;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#plaatje{
+    border: 3px solid aqua;
+    float:;
+}
