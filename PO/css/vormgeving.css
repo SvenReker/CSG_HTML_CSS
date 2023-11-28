@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'VinaSans';
+    src: url(fonts/VinaSans-Regular.ttf);
+}
+
 body{
     background: rgb(255, 255, 255);
     font-family: sans-serif;
@@ -83,7 +88,7 @@ h4{
 #Pros{
     width: 50%;
     height: 50%;
-    border: 1px solid gray;
+    border: 1px solid white;
     margin-left: 8%;
 }
 
@@ -97,11 +102,29 @@ h4{
     margin-top: 1px;
 }
 .box2{
+    display: flex;
+    flex-flow: row nowrap;
     width: 300px;
     border: 1px solid black;
     padding: 7px;
     margin-left: 60%;
-    border-radius: 16px; 
+    border-radius: 16px;
+    height: 65px;
+}
+.box3{
+    height: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.box4{
+    height: 60px;
+    display: flex;
+    width: 150px;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 
 #naam{
@@ -112,4 +135,30 @@ h4{
 
 #schermgrootte{
     font-size: 60%;
+}
+
+#plaatjeipad{
+    width: 50%;
+    height: 50%;
+}
+
+.iPad{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.colofon{
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-family: VinaSans;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    margin: 10px 775px 10px 775px
 }
